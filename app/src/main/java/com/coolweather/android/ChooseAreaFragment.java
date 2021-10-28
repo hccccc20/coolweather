@@ -118,9 +118,9 @@ public class ChooseAreaFragment extends Fragment {
                         getActivity().finish();
                     } else if (getActivity() instanceof WeatherActivity) {
                         WeatherActivity activity = (WeatherActivity) getActivity();
-//                        activity.drawerLayout.closeDrawers();
-//                        activity.swipeRefresh.setRefreshing(true);
-//                        activity.requestWeather(weatherId);
+                        activity.drawerLayout.closeDrawers();
+                        activity.swipeRefresh.setRefreshing(true);
+                        activity.requestWeather(weatherId);
                     }
                 }
             }
